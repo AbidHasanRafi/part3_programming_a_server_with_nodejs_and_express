@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "lint": "eslint .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Abid Hasan Rafi",
@@ -11,6 +13,7 @@
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
+    "eslint": "^9.8.0",
     "express": "^4.19.2",
     "mongodb": "^6.8.0",
     "mongoose": "^8.5.2",
